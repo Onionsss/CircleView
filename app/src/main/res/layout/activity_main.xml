@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.onion.circleview.MainActivity">
+
+
+
+        <com.onion.circle.ZImageView
+            android:id="@+id/z"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:z_style="rect"
+            app:z_radius="20"
+            android:layout_centerInParent="true"
+            android:src="@drawable/hugh"/>
+        <com.onion.circle.ZImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:z_style="oval"
+            android:src="@drawable/hugh"/>
+
+        <com.onion.circle.ZImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:z_style="oval"
+            android:src="@drawable/asdas"/>
+</LinearLayout>

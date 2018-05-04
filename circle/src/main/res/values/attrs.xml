@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZImageView">
+        <attr name="z_style" format="string">
+            <enum name="oval" value="1"/>
+            <enum name="rect" value="2"/>
+        </attr>
+        <attr name="z_radius" format="integer" />
+        <attr name="z_fitxy" format="boolean" />
+    </declare-styleable>
+</resources>

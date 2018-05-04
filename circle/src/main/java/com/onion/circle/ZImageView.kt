@@ -112,7 +112,18 @@ class ZImageView(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : I
                 mBitmap = drawable.bitmap
                 var min = Math.min(mBitmap.width, mBitmap.height)
                 mBitmap = scaleBitmap(mBitmap,radius/min)
-                canvas?.drawBitmap(mBitmap,0f,0f,mPaint)
+
+                var l = 0f
+                var t = 0f
+                if(mBitmap.width > mWidth){
+                    l = -(mBitmap.width - mWidth) / 2
+                }
+
+                if(mBitmap.height > mHeight){
+                    t = -(mBitmap.height - mHeight) / 2
+                }
+
+                canvas?.drawBitmap(mBitmap,l,t,mPaint)
 
             }else if(drawable is ColorDrawable){
                 var color:Int = drawable.color

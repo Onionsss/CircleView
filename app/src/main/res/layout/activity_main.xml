@@ -24,7 +24,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             app:z_style="oval"
-            android:src="@drawable/hugh"/>
+            android:src="@drawable/sss"/>
 
         <com.onion.circle.ZImageView
             android:layout_marginTop="20dp"

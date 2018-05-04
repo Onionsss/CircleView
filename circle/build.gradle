@@ -31,4 +31,4 @@ repositories {
 
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.Onionsss'
+group='com.onion'
